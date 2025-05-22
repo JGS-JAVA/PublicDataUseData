@@ -13,7 +13,7 @@ import java.nio.charset.StandardCharsets;
 @RequestMapping("/busroute")
 public class APIBusRouteController {
 
-    private static final String serviceKey = "JHF3ucgXiGwhU2VB5J6CVs3a34MpQ1YFrnuQrm%2FMzh16zr0%2F%2FsjvRom6oegE8R2fS70V1Xq0J6Epd";
+    private static final String serviceKey = "00000000000000000000000000000000";
 
     @GetMapping
     public String getBusRoute() {
