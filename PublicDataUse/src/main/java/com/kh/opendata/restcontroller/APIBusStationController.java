@@ -15,7 +15,7 @@ import java.util.Map;
 @RequestMapping("/busstation.do")
 public class APIBusStationController {
 
-    private static final String SERVICE_KEY = "JHFf3ucgXiGwHUzVB5J6CVs3a34MpQ1YFrnuQrm%2FlMzh16zr0%2FfsjvRom6oegE8R2F570V1XqOj6EpGFlh7A%3D%3D";
+    private static final String SERVICE_KEY = "00000000000000000000000000000";
 
     @GetMapping
     public ResponseEntity<Map<String, Object>> getBusRoutes() {
