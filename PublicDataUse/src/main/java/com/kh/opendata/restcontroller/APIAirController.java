@@ -12,7 +12,7 @@ import java.nio.charset.StandardCharsets;
 @RequestMapping("/air.do")
 public class APIAirController {
 
-    private static final String serviceKey = "RlrMNFCsyGmkQQqIJ9pI5aDYSEh5TrqYUKrRtPBOysCzwa%2FrmgSlGQbRZp4%2FHpyw0k4Z2QACgWDBUzeCJqUJZw%3D%3D";
+    private static final String serviceKey = "00000000000000000000000";
 
     @GetMapping
     public String airPollution() {
